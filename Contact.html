@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | The Reigns Collection</title>
+    <style>
+      body {
+        background: url("Ip.jpg");
+        background-size: 73px 41px;
+      }
+      .submit {
+        text-align: center;
+      }
+      h1 {
+        color: white;
+        font-family: cursive;
+        text-align: center;
+      }
+      p {
+        color: white;
+      }
+      label {
+        color: white;
+      }
+      h2 {
+        color: white;
+      }
+      
+      .dd {
+        height: 20px;
+        width: 221px;
+        border-radius: 7px;
+        border: none;
+      }
+      .ds {
+        height: 20px;
+        width: 221px;
+        margin-top: 21px;
+        border-radius: 7px;
+        border: none;
+      }
+    textarea {
+      border: none;
+      border-radius: 8px;
+      width: 227px;
+      margin-top: 21px;
+    }
+    button {
+      margin-top: 15px;
+      height: 22px;
+      border: none;
+      border-radius: 31%;
+    }
+    h2 {
+      text-align: center;
+      font-family: cursive;
+    }
+    a:link {
+      text-decoration: none;
+    }
+    .sq {
+      color: rgb(255,255,255);
+    }
+    iframe {
+      height: 201px;
+      width: 301px;
+      border-radius: 25%;
+    }
+    strong {
+      color: white;
+    }
+    span {
+      color: white;
+    }
+    .sas {}</style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            </header>
+
+        <main>
+            <h1>Get in Touch</h1>
+            <p>
+                We're here to help! Whether you have a question about our products, an order inquiry, or just want to say hello, we'd love to hear from you.
+            </p>
+            <center>
+            <form action="submit_form.php" method="POST" class="sas">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input class="dd" type="text" id="name" name="user_name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input class="ds" type="email" id="email" name="user_email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="sa" for="message">Message</label>
+                    <textarea id="message" name="user_message" rows="5" required></textarea>
+                </div>
+                </center>
+                <a href="Message.php">
+                <center>
+                <button type="submit">Send Message</button>
+                </center>
+                </a>
+            </form>
+
+            <h2>Other Ways to Connect</h2>
+            <div class="contact-info">
+            <center>
+                <p>
+                    <strong>Email:</strong> <a class="sq" href="Samuelifeolowa@gmail.com">Samuelifeolowa@gmail.com</a>
+                </p>
+                <p>
+                    <strong>Phone:</strong> <a class="sq" href="tel:+2348162578314">+2348162578314</a>
+                </p>
+                <p>
+                  </center>
+                    <strong>Social Media:</strong> <span>Find us on your favorite platform!
+                    </span>
+                </p>
+                <div class="social-icons">
+                    </div>
+            </div>
+
+            <h2>Our Location</h2>
+            <center>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.25396556488!2d-73.9876255845941!3d40.748440379328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259654e7d9595%3A0x673c683c3e8a3a2d!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1614765666752!5m2!1sen!2sus" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+            </center>
+        </main>
+        
+        <footer>
+            </footer>
+
+    </div> </body>
+</html>
